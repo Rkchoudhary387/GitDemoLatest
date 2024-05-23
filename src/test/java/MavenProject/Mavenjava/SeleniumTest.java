@@ -1,0 +1,22 @@
+package MavenProject.Mavenjava;
+
+import org.testng.annotations.Test;
+
+public class SeleniumTest {
+	//testing xml file from maven
+	//how to execute all test cases from test folder - mvn test
+	@Test
+	
+	public void BowserAutomation()
+	{
+		System.out.println("BowserAutomation");
+		
+	}
+	@Test
+	public void elementsUI()
+	{
+		System.out.println("elementsUI");
+		
+	}
+
+}
